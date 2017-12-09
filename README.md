@@ -1,21 +1,6 @@
-# resume_editor
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 一个基于Vue+ElementUI+LeanCloud的在线简历编辑器
+- 实现了以下功能：
+  - 登陆账号后自动获取账号上次最后保存的数据
+  - 点击预览可在新页面预览效果
+  - 点击分享预览并复制输入栏中的地址可以让别人查看简历
+  - [预览](https://mfsnt.github.io/resume_editor/dist/index.html)
